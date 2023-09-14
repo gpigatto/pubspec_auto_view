@@ -14,10 +14,5 @@ function clickUncheckedPubspecYamlCheckboxes() {
     });
 }
 
-clickUncheckedPubspecLockCheckboxes();
-clickUncheckedPubspecYamlCheckboxes();
-
-setTimeout(function () {
-    clickUncheckedPubspecLockCheckboxes();
-    clickUncheckedPubspecYamlCheckboxes();
-}, 3000);
+clickUncheckedPubspecLockCheckboxes()
+clickUncheckedPubspecYamlCheckboxes()
